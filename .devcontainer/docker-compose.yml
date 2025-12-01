@@ -1,6 +1,7 @@
 services:
     autopsy:
         image: eecs388/autopsy
+        platform: linux/amd64
         restart: always
         # Allocate sufficient memory to the Autopsy GUI process.
         # If your machine is running out of memory, you might try decreasing this,
